@@ -1,6 +1,16 @@
-@extends('template.mastertemplate')
+@extends('template.adminLTE')
 
 @section('title', 'Tambah Data Mahasiswa')
+
+@section('title-body', 'Tambah Data Mahasiswa')
+
+@section('breadcrumb')
+<ol class="breadcrumb float-sm-right">
+  <li class="breadcrumb-item"><a href="#">Home</a></li>
+  <li class="breadcrumb-item active">Tambah Data Mahasiswa</li>
+</ol>
+@endsection
+
 @section('content')
 <h1>Tambah Data Mahasiswa</h1>
 <form>
@@ -16,6 +26,4 @@
           <button type="submit" class="btn btn-primary mb-3">Simpan</button>
       </div>
 </form>
-<!doctype html>
-
 @endsection
